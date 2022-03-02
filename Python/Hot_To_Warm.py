@@ -2,6 +2,7 @@
 This script requires the path module to be installed - it does not come installed by defult. It can be installed with pip install path
 https://github.com/jaraco/path
 https://path.readthedocs.io/en/latest/
+Moves old files from the main file server to Warm storage
 Made by Louis Rice
 """
 
