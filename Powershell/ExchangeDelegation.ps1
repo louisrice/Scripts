@@ -1,4 +1,4 @@
-#This script lets you add delegates to someones Exchange mailbox, rather than having to use the Exchange Admin Center
+#This script lets you add or remove delegates for someones Exchange mailbox, rather than having to use the Exchange Admin Center
 
 function 30_second_sleep{ #Source: https://www.reddit.com/r/PowerShell/comments/b2n23e/powershell_count_down_timer/eitx9h5/
     [int]$Time = 30
