@@ -1,0 +1,11 @@
+#Schedules a restart for tomorrow between 8:00 and 8:10 PM
+
+$month = get-date -format "MM"
+[int]$day = get-date -format "dd"
+$day = $day + 1
+$random_number = get-random -maximum 10
+$restart_time = "8:0" + $random_number + "PM"
+[int]$Seconds = ( (Get-Date "$month/$day/2021 $restart_time") - (get-date) ).TotalSeconds
+shutdown /r /t $Seconds
+
+Write-Output $restart_time
