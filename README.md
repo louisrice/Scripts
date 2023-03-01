@@ -1,2 +1,2 @@
 # Scripts
-This repository contains scripts I have created for professional use. Sensitive company information has been sanitized.
+This repository contains scripts I have created for professional use. Some scripts have placeholder content where I removed company info. 
